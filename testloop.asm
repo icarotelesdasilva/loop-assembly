@@ -14,5 +14,5 @@ MOV RDI, 1
 MOV RSI, msg
 MOV RDX, 3
 syscall
-
+; nao me responsabilizo para que podem fazer com esse arquivo de loop infinito...cuidado ao executar 
 jmp loop_infinito
